@@ -35,11 +35,11 @@ class Data {
 public class App {
     public static void main(String[] args) throws Exception {
         // instansiasi objek
-        Data data1 = new Data("munazirul", "PTI", 3.14);
+        Data data1 = new Data("Andra", "PTI", 3.14);
 
         // modifier access default
         System.out.println(data1.nama);
-        data1.nama = "Akbar";
+        data1.nama = "andra";
         System.out.println(data1.nama);
 
         // modifier access public
